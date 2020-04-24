@@ -383,6 +383,7 @@
         <Content Include="gulpfile.js" />
         <Content Include="package-lock.json" />
         <Content Include="package.json" />
+        <Content Include="product-page.html" />
         <Content Include="sass\foundation.scss" />
         <Content Include="Scripts\bootstrap.js" />
         <Content Include="Scripts\bootstrap.min.js" />
