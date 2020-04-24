@@ -18,12 +18,12 @@ gulp.task('sass:watch', function () {
 
 gulp.task('default', () =>
     gulp.src('./src/**/*.js')
+        .pipe(concat('all.js'))
         .pipe(babel({
             presets: ['@babel/env'],
             compact: true,
             minified: true
         }))
-        .pipe(concat('all.js'))
         .pipe(gulp.dest('./dist'))
 );
 
