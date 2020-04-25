@@ -6,3 +6,4 @@ riderModule.iml
 node_modules/
 .idea/
 /WebApplication/umbraco/
+/WebApplication/App_Data/
