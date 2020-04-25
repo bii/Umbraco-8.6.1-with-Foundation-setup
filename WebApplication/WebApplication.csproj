@@ -386,6 +386,7 @@
         <Content Include="package.json" />
         <Content Include="product-page.html" />
         <Content Include="sass\foundation.scss" />
+        <Content Include="sass\settings.scss" />
         <Content Include="Scripts\bootstrap.js" />
         <Content Include="Scripts\bootstrap.min.js" />
         <None Include="Config\ClientDependency.config" />

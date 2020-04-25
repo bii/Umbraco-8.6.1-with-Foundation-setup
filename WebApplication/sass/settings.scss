@@ -1,0 +1,13 @@
+.button-group.expanded {
+  .button {
+    margin-right: 1px;
+  }
+  
+  .button:last-child {
+    margin-right: 0;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+}
