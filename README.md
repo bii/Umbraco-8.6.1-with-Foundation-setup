@@ -1,19 +1,17 @@
-# Umbraco 8.6.1 with Foundation setup
+## Installation
 
-## Install packages
+Install packages with NPM
+
 ```npm install```
 
-## Concatenate scss in sass folder, compile to css and minify with gulp and output to css folder
-```gulp sass ```
+## Usage
 
-## Watch gulp sass
-```gulp sass:watch```
+Run ```gulp sass ``` to concatenate scss in the _sass_ folder, compile it to css, minify and output to _css_ folder
 
-## Concatenate js files in src folder, transpile, minify and output to dist folder
-```gulp default ```
+Run ```gulp sass:watch``` to watch for changes to scss files
 
-## Watch gulp default
-```gulp default:watch```
+Run ```gulp default ``` to concatenate js files in _src_ folder, transpile, minify and output to _dist_ folder
 
-## Watch all
-```all:watch```
+Run ```gulp default:watch``` to watch for changes to _src_ folder
+
+Run ```all:watch``` to watch for scss and JavaScript changes
