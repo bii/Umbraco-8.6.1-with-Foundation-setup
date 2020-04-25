@@ -3,17 +3,17 @@
 ## Install packages
 ```npm install```
 
-## concatenate scss in sass folder, compile to css and minify with GULP
+## Concatenate scss in sass folder, compile to css and minify with gulp and output to css folder
 ```gulp sass ```
 
-## watch gulp sass
+## Watch gulp sass
 ```gulp sass:watch```
 
-## concat files in src folder, transpile and minify
+## Concatenate js files in src folder, transpile, minify and output to dist folder
 ```gulp default ```
 
-## watch gulp default
+## Watch gulp default
 ```gulp default:watch```
 
-## watch all
+## Watch all
 ```all:watch```
