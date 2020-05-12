@@ -1,7 +1,6 @@
 ﻿const gulp = require('gulp');
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
-const babel = require('gulp-babel');
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const webpackConfig = require('./webpack.config');

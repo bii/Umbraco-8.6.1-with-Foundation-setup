@@ -4,14 +4,14 @@ Install packages with NPM
 
 ```npm install```
 
-## Usage
+## Usage / GULP tasks
 
-Run ```gulp sass``` to concatenate scss in the _sass_ folder, compile it to css, minify and output to _css_ folder
+Run ```gulp sass``` concatenates scss in the _/src/sass_ folder, compiles it to css, minify and output to _/dist/css_ folder
 
-Run ```gulp sass:watch``` to watch for changes to scss files
+Run ```gulp sass:watch``` watches for changes to scss files in _/src/sass_ folder
 
-Run ```gulp default``` to concatenate js files in _src_ folder, transpile, minify and output to _dist_ folder
+Run ```gulp js``` transpile, minify, bundle and output to _/dist/js_ folder
 
-Run ```gulp default:watch``` to watch for changes to _src_ folder
+Run ```gulp js:watch``` watches for changes to _/src/js_ folder
 
-Run ```all:watch``` to watch for scss and JavaScript changes
+Run ```all:watch``` watches for changes to scss and js files in _/src/js_ and sass files in _/src/sass_, respectively
