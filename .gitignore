@@ -7,3 +7,5 @@ node_modules/
 .idea/
 /WebApplication/umbraco/
 /WebApplication/App_Data/
+/WebApplication/dist/css/*.css
+/WebApplication/dist/js/*.js
