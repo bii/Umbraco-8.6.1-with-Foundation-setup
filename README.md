@@ -4,9 +4,7 @@ Install packages with NPM
 
 Open command line
 
-C:\Users\bilal\RiderProjects\Umbraco-8.6.1-with-Foundation-setup\WebApplication
-
-cd WebApplication
+change directory to WebApplication
 
 Run ```npm install```
 
